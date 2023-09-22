@@ -1,0 +1,6 @@
+steps:
+- name: 'docker'
+  args: [ 'build', '-t', 'us-west1-docker.pkg.dev/$PROJECT_ID/ungkluk/suuk:latest', '.' ]
+
+images:
+- 'us-west1-docker.pkg.dev/$PROJECT_ID/ungkluk/suuk:latest'
